@@ -1,7 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face{
+	font-family: "dancing-script";
+	src: url("DancingScript-Regular.otf");
+}
+
 body{
-	font-family: Helvetica;
+	font-family:"dancing-script";
 	text-shadow: #02010a;
 	width: 90%;
 	margin-left: 5%;
@@ -13,6 +18,7 @@ body{
 	background-position: center;
 	padding: 05%;
 	
+	
 }
 .banner1{
 	background-color: #82c3a6;
@@ -20,7 +26,8 @@ body{
 	width: 100%;
 	background-position: center;
 	padding-top: 05px;
-	
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 	
 	
 }
@@ -31,25 +38,52 @@ body{
 	padding-bottom: 05%;
 	
 	
+	
+}
+.item2:hover{
+	transform: translate(5px)
 }
 .item1{
 	 display: inline-block;
-	width: 50%;
-	left:  100px;
-	padding-top: 05%;
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 05%;
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
+	
+	
 }
+.item1:hover{
+	transform: rotate(10deg);
+} 
 .item2{
-	 display: inline-block;
-	width: 50%;
-	position: relative;
-	left: 20px;
-	top: 100px;
-
+	display: inline-block;
+	width: 40%;
+	margin-right: 10%;
+	
+	padding-top: 40%;
+	
+	
+   
+	
 	
 	
 }
-#RetraPisa ul li a:hover{
-	background-color: #659CC9;
+
+.retrapaisa1{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20%;
+	
+}
+
+.retrapaisa2{
+	display: inline-block;
+	list-style: none;
+	margin-left: 45%;
+	margin-top: 3%;
+	
+	
 }
 header{
 	width: 100%;
@@ -127,63 +161,122 @@ img{max-width: 100%;}
 	width: 100%;
 	padding-bottom: 05%;
 	background-position: center;
+	padding-top: 03%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 }
+
 .contenedorpaisaje1{
 	display: inline-block;
-	padding: 2em;
-	margin-left: 30px;
+	border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
 	-webkit-filter: blur(10px);
-	filter: blur(10px)
-	
+	filter: blur(10px);
+	margin-left: 50px;
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje2{
 -webkit-filter: grayscale(100%%);
 	filter: grayscale(100%);
 	display: inline-block;
-    padding: 2em;
-	
+	box-sizing: border-box;
+    border: 1px solid black;
 	width: 30%;
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 	
  }
 .contenedorpaisaje3{
-	-webkit-filter: sepia();
+	
+-webkit-filter: sepia();
 	filter: sepia();
 	display: inline-block;
-    padding: 2em;
+    border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje4{
 	-webkit-filter: grayscale(100%%);
 	filter: grayscale(100%);
 	display: inline-block;
-    padding: 2em;
+    border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	
+	margin-left: 50px;
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje5{
 	display: inline-block;
-    padding: 2em;
+   border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
+
  }
 .contenedorpaisaje6{
-	-webkit-filter: grayscale(100%%);
+	-webkit-filter: grayscale();
 	filter: grayscale(100%);
 	display: inline-block;
-    padding: 2em;
+   border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
+	margin:01%;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 	
  }
+footer{
+	width: 100%;
+	background: #c9d1c5;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100px;
+	padding: auto;
+	list-style: none;
+	display: block;
+}
+.contacto{
+	list-style: none;
+	display: inline-block;
+	margin-left: 3%;
+	top: 2%;
+	box-sizing: border-box;
+	
+}
+.terminos{
+	list-style: none;
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+.Smedia{list-style: none;
+	display: inline-block;
+	margin-left: 3%;
+	top: 2%;
+	box-sizing: border-box;}
 
+.twtter{
+	list-style: none;
+	width: 5%;
+}
+.facebook{
+	list-style: none;
+	width: 5%;
+}
+.IG{list-style: none; width: 5%} .link{list-style: none; width:5%;}
 
-
+.derechos{
+	list-style: none;
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
 
 
 @media all (max-width: 900px) and(min-width:700px) {
