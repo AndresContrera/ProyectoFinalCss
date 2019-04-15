@@ -11,6 +11,7 @@ body{
 	width: 90%;
 	margin-left: 5%;
 	font-size: 18px;
+	justify-content: center;
 }
 
 .banner2{
@@ -32,59 +33,43 @@ body{
 	
 }
 .imagenIndex{
-	 display: inline-block;
 	background-color:  #d1bb5d;
 	width: 100%;
-	padding-bottom: 05%;
-	
-	
+	padding-bottom: 10%;
+}
+.fotos-index-all{
+	display: flex;
 	
 }
-.item2:hover{
-	transform: translate(5px)
+.foto2:hover{
+	transform: translate(5px);
+		
 }
-.item1{
-	 display: inline-block;
+.foto1{
 	width: 40%;
-	margin-left: 10%;
-	margin-top: 05%;
-	border: 1px solid black;
+    border: 1px solid black;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
-	
+	margin-top: 10%;
+	margin-left:08%;
+
 	
 }
-.item1:hover{
+.foto1:hover{
 	transform: rotate(10deg);
 } 
-.item2{
-	display: inline-block;
+.foto2{
 	width: 40%;
-	margin-right: 10%;
-	
-	padding-top: 40%;
-	
-	
-   
-	
-	
-	
-}
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
+	margin-top: 10%;
+	margin-left:5%;
 
-.retrapaisa1{
-	display: inline-block;
-	list-style: none;
-	margin-left: 20%;
-	
 }
-
-.retrapaisa2{
-	display: inline-block;
-	list-style: none;
-	margin-left: 45%;
-	margin-top: 3%;
-	
-	
-}
+.link-HTML{
+	display: flex;
+	margin-top: 5%;
+   }
+.retrato1{margin-left: 25%} .paisaje1{margin-left: 45%;}
 header{
 	width: 100%;
 	background: #5b7989;
@@ -155,14 +140,12 @@ float: right;
 }
 img{max-width: 100%;}
 
+
 .contenidoimgPR{
 	 display: inline-block;
 	background-color:  #d1bb5d;
 	width: 100%;
-	padding-bottom: 05%;
-	background-position: center;
-	padding-top: 03%;
-	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
+
 }
 
 .contenedorpaisaje1{
@@ -173,7 +156,7 @@ img{max-width: 100%;}
 	-webkit-filter: blur(10px);
 	filter: blur(10px);
 	margin-left: 50px;
-	margin:01%;
+	margin:02%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje2{
@@ -206,7 +189,7 @@ img{max-width: 100%;}
 	box-sizing: border-box;
 	width: 30%;
 	margin-left: 50px;
-	margin:01%;
+	margin:02%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje5{
@@ -231,107 +214,53 @@ img{max-width: 100%;}
  }
 footer{
 	width: 100%;
-	background: #c9d1c5;
-	border-bottom-right-radius: 10px;
+	background-color: #c9d1c5;
 	border-bottom-left-radius: 10px;
-	height: 100px;
-	padding: auto;
-	list-style: none;
-	display: block;
-}
-.contacto{
-	list-style: none;
-	display: inline-block;
-	margin-left: 3%;
-	top: 2%;
-	box-sizing: border-box;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 5%;
 	
 }
-.terminos{
+.contedor-F-All{
+	width: 100%;
+	max-width: 1200px;
+}
+.contenedor-footer{
+	display: flex;
+	
+}
+.contenedor-info{
 	list-style: none;
-	display: inline-block;
-	margin-left: 3%;
+	margin-top: 10%;}
+	
+                         }
+.row1{
+	list-style: none;
+	margin-left: 10%;
+	
+}
+.row2{
+	margin-left: 8%;
+}
+.row3{
+	margin-left: 8%;
+}
+
+.redes img{
+	width: 07%;
+	
+	
+}
+
+.redes label{
+	margin-left: 10px;
 	margin-top: 10px;
-	box-sizing: border-box;
-}
-.Smedia{list-style: none;
-	display: inline-block;
-	margin-left: 3%;
-	top: 2%;
-	box-sizing: border-box;}
-
-.twtter{
-	list-style: none;
-	width: 5%;
-}
-.facebook{
-	list-style: none;
-	width: 5%;
-}
-.IG{list-style: none; width: 5%} .link{list-style: none; width:5%;}
-
-.derechos{
-	list-style: none;
-	display: inline-block;
-	margin-left: 3%;
-	margin-top: 10px;
-	box-sizing: border-box;
-}
-
-
-@media all (max-width: 900px) and(min-width:700px) {
-	.contenedor{
-		width: 90%;
-	}
-	.paisajeRetra1{
-		width: 100%;
-	}
-	.paisajeRetra2{
-		width: 20%;
-		min-height: 400px:
-	}
-	.paisajeRetra3{
-		width: 80%;
-		min-height: 400px;
-	}
-	.paisajeRetra4{
-		width: 100%;
-	}
-	.paisajeRetra5{
-		width: 100%;
-	}
-	.paisajeRetra6{
-		width: 100%;
-	}
-	}
-
-
-@media (max-width: 480px){
-	.contenedor{
-		width: 100%;
-	}
-
-	.paisajeRetra1{width: 100%;
-		min-height: 100px;}
-	
-	.paisajeRetra2{
-		width: 100%;
-		min-height: 100px;
-	}
-	.paisajeRetra3{
-		width: 100%;
-		min-height: 100px;
-	}
-	.paisajeRetra4{
-		width: 100%;
-		min-height: 100px;
-	}
-	.paisajeRetra5{width: 100%;
-		min-height: 100px;}
-	
-	.paisajeRetra6{
-		width: 100%;
-		min-height: 100px;
-	}
+	margin-bottom: 10px;
 	
 }
+.rede label{margin-top: 10px;}	
+
+.row4{
+	
+}
+
+
