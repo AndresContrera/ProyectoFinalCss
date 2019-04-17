@@ -13,7 +13,11 @@ body{
 	font-size: 18px;
 	justify-content: center;
 }
-
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	
+}
 .banner2{
 	background-color: #82c3a6;
 	background-position: center;
@@ -39,6 +43,7 @@ body{
 }
 .fotos-index-all{
 	display: flex;
+	width: 100%;
 	
 }
 .foto2:hover{
@@ -142,77 +147,77 @@ img{max-width: 100%;}
 
 
 .contenidoimgPR{
-	 display: inline-block;
+	display:inline-block;
 	background-color:  #d1bb5d;
 	width: 100%;
 
 }
+#galeria{display:inline-block; margin-top: 5%; margin-left: 5%; margin-bottom: 5%;}
 
 .contenedorpaisaje1{
-	display: inline-block;
+	display:inline-block;
 	border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
+	
 	-webkit-filter: blur(10px);
 	filter: blur(10px);
-	margin-left: 50px;
-	margin:02%;
+	
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje2{
--webkit-filter: grayscale(100%%);
+	display:inline-block;
+    -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	display: inline-block;
 	box-sizing: border-box;
     border: 1px solid black;
 	width: 30%;
-	margin:01%;
+	margin-left: 3%;
+	margin-bottom: 3%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 	
  }
 .contenedorpaisaje3{
-	
--webkit-filter: sepia();
+	display:inline-block;
+	-webkit-filter: sepia();
 	filter: sepia();
-	display: inline-block;
-    border: 1px solid black;
+	border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	margin:01%;
+	margin-left: 3%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje4{
+	display:inline-block;
 	-webkit-filter: grayscale(100%%);
 	filter: grayscale(100%);
-	display: inline-block;
     border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	margin-left: 50px;
-	margin:02%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
  }
 .contenedorpaisaje5{
-	display: inline-block;
-   border: 1px solid black;
+	display:inline-block;
+    border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	margin:01%;
+	margin-left: 3%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 
  }
 .contenedorpaisaje6{
+	display:inline-block;
 	-webkit-filter: grayscale();
 	filter: grayscale(100%);
-	display: inline-block;
-   border: 1px solid black;
+	border: 1px solid black;
 	box-sizing: border-box;
 	width: 30%;
-	margin:01%;
+	margin-left: 3%;
 	box-shadow: 3px 5px 5px 0 rgba(0,0,0,0.2);
 	
  }
 footer{
+	box-sizing: border-box;
 	width: 100%;
 	background-color: #c9d1c5;
 	border-bottom-left-radius: 10px;
@@ -226,6 +231,7 @@ footer{
 }
 .contenedor-footer{
 	display: flex;
+	margin-left: 12%;
 	
 }
 .contenedor-info{
@@ -252,6 +258,7 @@ footer{
 }
 
 .redes label{
+	list-style: none;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -262,5 +269,32 @@ footer{
 .row4{
 	
 }
+@media screen and (max-width: 960px) {
 
+	#wrapper{width: 90%;
+	margin: 0 auto;}
+	.fotos-index-all{
+		width: 100%;}
+}
+
+@media screen and (max-width:640) {
+
+	#wrapper{width: 100%;
+	margin: 0 auto;}
+	.fotos-index-all{
+		width: 100%;}
+}
+
+@media screen and (max-width:480) {
+
+	#wrapper{width: 100%;
+	margin: 0 auto;}
+	
+	heder{
+		width: 100%;
+	}
+	.fotos-index-all{
+		width: 100%;
+	}
+}	
 
